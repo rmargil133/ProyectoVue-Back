@@ -1,10 +1,12 @@
 const usersModelo = require("../database/usuariosModelo.js");
+const md5 = require("md5")
 const {v4: uuid} = require("uuid")
 
-const createOneUser = (usuario) => {
+const createOneUser = (usuario, password) => {
   
     const usuarioNuevo = {
       ...usuario,
+      contraseña: md5(password.contraseña), 
       id: uuid(), //GENERAR UN ID ALEATORIO CON UUID
       fechaAlta: new Date().toLocaleDateString(),
       fechaModificacion: new Date().toLocaleDateString(),
@@ -20,12 +22,16 @@ const createOneUser = (usuario) => {
 
 const getOneUser = (nombre) => {
     const oneUser = usersModelo.getOneUser(nombre);
-    return oneUser;
+    const user = {
+      correo: oneUser.correo,
+      usuario: oneUser.usuario,
+      contraseña: oneUser.contraseña,
+    }
+    return user;
 };
   
   
 const updateOneUser = (nombre, usuario) => {
-    //TODO: implementar funcionalidad para actualizar un usuario
     const usuarioCambiado = {
       ...usuario,
       fechaModificacion: new Date().toLocaleDateString()
@@ -43,7 +49,6 @@ const updateOneUser = (nombre, usuario) => {
   
 
 const deleteOneUser = (nombre) => {
-    //TODO: implementar funcionalidad para eliminar un usuario
     const Usuario = usersModelo.getOneUser(nombre)
   
     if(!Usuario){

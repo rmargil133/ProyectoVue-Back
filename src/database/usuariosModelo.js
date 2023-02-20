@@ -31,7 +31,7 @@ const updateOneUser = (nombre, NuevoUsuario) => {
     if(!datos["users"][`${nombre}`]){
         return false
     }
-    
+    datos.users[nombre].usuario = NuevoUsuario.usuario ? NuevoUsuario.usuario : datos.users[nombre].usuario
     datos.users[nombre].fechaModificacion = NuevoUsuario.fechaModificacion
 
     fs.writeFileSync(

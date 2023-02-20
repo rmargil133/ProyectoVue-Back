@@ -1,1 +1,77 @@
-{}
+{
+    "articulos":{
+        "Lampara-Carburador":{        
+            "nombre": "Lampara-Carburador",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p2_i8_w160.jpeg",
+            "precio": "75,00€",
+            "descripcion": "REALIZADAS SOBRE LA BASE DE UN CARBURADOR , RECICLANDO MATERIALES Y AÑADIENDO DETALLES PARA QUE CADA LAMPARA SEA DIFERENTE , NO HAY DOS IGUALES , TENDRÁS ALGO DISTINTO Y ÚNICO UN FILTRO DE AIRE , UNA LATA DE DISOLVENTE , UNA POLEA DE CIGÜEÑAL , UN EJE PRIMARIO DE UNA CAJA DE CAMBIOS , TODO PIEZAS QUE RECOGEMOS Y REUTILIZAMOS"
+        },
+        "Lampara-Botellines":{
+            "nombre": "Lampara-Botellines",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p1_i8_w160.jpeg",
+            "precio": "65,00€",
+            "descripcion": "1"
+        },
+        "Pulseras":{
+            "nombre": "Pulseras",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p3_i12_w160.jpeg",
+            "precio": "25,00€",
+            "descripcion":"1"
+        },
+        "Cuelga-LLaves":{
+            "nombre": "Cuelga-Llaves",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p4_i10_w160.jpeg",
+            "precio": "15€",
+        "descripcion": "1"
+        },
+        "Anillakos":{
+            "nombre": "Anillakos",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p5_i5_w160.jpeg",
+            "precio": "7,00€",
+            "descripcion": "1"
+        },
+        "BujiaAbridor":{
+            "nombre": "BujiaAbridor",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p6_i1_w160.jpeg",
+            "precio": "7,00€",
+            "descripcion": "1"
+        },
+        "Muebles":{
+            "nombre": "Muebles",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p7_i1_w160.jpeg",
+            "precio": "0,00€",
+            "descripcion": "1"
+        },
+        "Expositores":{
+            "nombre": "Expositores",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p8_i14_w160.jpeg",
+            "precio": "150,00€",
+            "descripcion": "1"
+        },
+        "Merchandising":{
+            "nombre": "Merchandising",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p11_i2_w160.jpeg",
+            "precio": "0,00€",
+            "descripcion": "1"
+        },
+        "Box-Auxiliar":{
+            "nombre": "Box-Auxiliar",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p9_i8_w160.jpeg",
+            "precio": "125,00€", 
+            "descripcion": "1"
+        },
+        "Cadena-Llavero":{
+            "nombre": "Cadena-Llavero",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p13_i1_w160.jpeg",
+            "precio": "20,00€",
+            "descripcion": "1"
+        },
+        "Pulsera-Tenedor":{
+            "nombre": "Pulsera-Tenedor",
+            "imagen": "https://garakohandmade.weebly.com/uploads/9/8/5/7/98579120/s282373183781277691_p14_i1_w160.jpeg",
+            "precio": "10,00€",
+            "descripcion": "1"
+        }
+
+    }
+}

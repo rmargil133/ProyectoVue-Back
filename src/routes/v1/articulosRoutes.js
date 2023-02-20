@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const articulosController = require("../controllers/articulosController.js");
+const articulosController = require("../../controllers/articulosController")
 
 // localhost:3001/api/v1/articulo/
 router.route("/")
