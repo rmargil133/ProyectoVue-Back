@@ -1,4 +1,4 @@
-const datos = require("./usuarios.json")
+const datos = require("./users.json")
 const fs = require("fs")
 
 
@@ -17,7 +17,7 @@ const insertUser = (usuario) => {
 
     //Escribo el fichero con esos nuevos datos
     fs.writeFileSync(
-      "./src/database/usuarios.json",
+      "./src/database/users.json",
       JSON.stringify(datos, null, 2),
       "utf8"
     );
@@ -35,7 +35,7 @@ const updateOneUser = (nombre, NuevoUsuario) => {
     datos.users[nombre].fechaModificacion = NuevoUsuario.fechaModificacion
 
     fs.writeFileSync(
-        "./src/database/usuarios.json",
+        "./src/database/users.json",
         JSON.stringify(datos, null, 2),
         "utf8"
     );
@@ -48,7 +48,7 @@ const deleteOneUser = (nombre) => {
     delete datos.users[nombre]
     
     fs.writeFileSync(
-        "./src/database/usuarios.json",
+        "./src/database/users.json",
         JSON.stringify(datos, null, 2),
         "utf8"
     );
